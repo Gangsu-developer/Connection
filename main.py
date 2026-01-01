@@ -1,7 +1,7 @@
-from fastapi import Fastapi
+from fastapi import FastAPI
 import yfinance as yf
 
-app = Fastapi()
+app = FastAPI()
 
 @app.get("/")
 def root() :
